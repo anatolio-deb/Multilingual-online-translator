@@ -3,7 +3,7 @@ This project is originally written as a telegram bot to support translation oper
 ## Motivation
 The project's based mostly on educational purposes. It demonstrates the power and sugar behind the Python. It envolves basic networking, text processing and exception handling.
 ## Build status
-The bulid status is continiously. It can evolve to whatever...
+The bulid status is continiously. It can evolve to anything...
 ## Code style
 'Scriptie' for now.
 ## Screenshots
