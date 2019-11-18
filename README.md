@@ -21,7 +21,7 @@ Type `ru` or `en` as an argumets. Currently supports English an Russian vice ver
 ```
 Type "en" if you want to translate from russian into english, or "ru" if you want to translate from english into russian:
 ```
-Type the word you want to translate:
+Then:
 ```
 Type the word you want to translate:
 ```
