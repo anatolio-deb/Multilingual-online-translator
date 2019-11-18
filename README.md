@@ -7,7 +7,7 @@ The bulid status is continiously. It can evolve to whatever...
 ## Code style
 'Scriptie' for now.
 ## Screenshots
-
+![alt text](https://github.com/goeth/reverso-context-bot/blob/master/preview/stage5.gif)
 ## Tech/Framework used
 Nothing special but Python, requests and beautifulsoup.
 ## Features
