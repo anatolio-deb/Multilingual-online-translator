@@ -9,9 +9,22 @@ The bulid status is continiously. It can evolve to whatever...
 ## Screenshots
 ![alt text](https://github.com/goeth/reverso-context-bot/blob/master/preview/stage5.gif)
 ## Tech/Framework used
-Nothing special but Python, requests and beautifulsoup.
+Nothing special but Python3, requests and beautifulsoup.
 ## Features
 Made with fun :)
+## How to use?
+Run the script:
+```
+python3 translator.py 
+```
+Type `ru` or `en` as an argumets. Currently supports English an Russian vice versa.
+```
+Type "en" if you want to translate from russian into english, or "ru" if you want to translate from english into russian:
+```
+Type the word you want to translate:
+```
+Type the word you want to translate:
+```
 ## Credits
 [Reverso Context](https://context.reverso.net/)
 
