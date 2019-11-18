@@ -14,4 +14,5 @@ Nothing special but Python, requests and beautifulsoup.
 Made with fun :)
 ## Credits
 [Reverso Context](https://context.reverso.net/)
-[Telegram bot](https://t.me/saske_cool_bot)
+
+[@Saske_cool_bot](https://t.me/saske_cool_bot)
