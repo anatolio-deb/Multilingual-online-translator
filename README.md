@@ -2,16 +2,12 @@
 This project is originally written as a telegram bot to support translation operations provided by [Reverso Context](https://context.reverso.net/).
 ## Motivation
 The project's based mostly on educational purposes. It demonstrates the power and sugar behind the Python. It envolves basic networking, text processing and exception handling.
-## Build status
-The bulid status is continiously. It can evolve to anything...
-## Code style
-'Scriptie' for now.
 ## Screenshots
 ![alt text](https://github.com/goeth/reverso-context-bot/blob/master/preview/stage5.gif)
-## Tech/Framework used
-Nothing special but Python3, requests and beautifulsoup.
-## Features
-Made with fun :)
+## Dependencies
+* Python3
+  * requests
+  * beautifulsoup
 ## How to use?
 Run the script:
 ```
