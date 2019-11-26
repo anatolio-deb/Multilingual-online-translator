@@ -11,11 +11,14 @@ The project's based mostly on educational purposes. It demonstrates the power an
 ## How to use?
 Run the script:
 ```
-python3 translator.py 
+python3 translator.py
 ```
-Type `ru` or `en` as an argumets. Currently supports English an Russian vice versa.
+Choose the language:
 ```
-Type "en" if you want to translate from russian into english, or "ru" if you want to translate from english into russian:
+Hello, you're welcome to translator. Translator supports
+arabic, german, english, spanish, french, hebrew, japanese, dutch, polish, po
+rtuguese, romanian, russian, turkish
+ Type your language:
 ```
 Then:
 ```
