@@ -1,0 +1,201 @@
+
+Arabic Translation:
+مرحبا
+أهلا
+الو
+هل
+سلام
+هالو
+السلام عليكم
+.مرحبا
+صباح الخير
+هاللو
+مساء الخير
+صباح النور
+التحية
+
+German Translation:
+hallo
+guten Abend
+guten Morgen
+Begrüßung
+guten Tag
+Hello
+Hi
+grüß Gott
+Nanu
+servus
+Bonjour
+grüßen
+ja
+begrüßt
+grüße
+
+Spanish Translation:
+hola
+buenos días
+qué tal
+saludo
+buen día
+bienvenida
+¿Diga
+aló
+diga
+¿Oiga
+dígame
+Hello
+Bueno
+Buenas tardes
+saludar
+
+French Translation:
+bonjour
+allô
+ohé
+coucou
+salut
+hello
+bonsoir
+quelqu'un
+bien le bonjour
+Oh
+Enchanté
+saluer
+ça
+salue
+Oui
+
+Hebrew Translation:
+שלום
+בוקר טוב
+הלו
+היי
+ד"ש
+הי
+לשלום
+ושלום
+לך
+סליחה
+האלו
+השלום
+,שלום
+אהלן
+
+Japanese Translation:
+こんにちは
+hello
+ハロー
+ハイ
+どうも
+もしもし
+やあ
+やぁ
+こんにちわ
+はい
+こんち
+久しぶり
+今日は
+挨拶
+よろしく
+
+Dutch Translation:
+dag
+begroeting
+hallo
+gedag
+groeten
+hoi
+goedendag
+goeiedag
+goeiendag
+Hello
+Goedenavond
+Goedemorgen
+Spreek
+Goedemiddag
+begroeten
+
+Polish Translation:
+cześć
+halo
+powitanie
+miło
+witam
+witaj
+dzień dobry
+witajcie
+hej
+słucham
+witamy
+pozdrowienia
+hallo
+Hello
+Dobry wieczór
+
+Portuguese Translation:
+olá
+alô
+bom dia
+abraço
+boas-vindas
+oi
+cumprimentos
+viva
+saudações
+acorda
+Hello
+Boa tarde
+Está lá
+Como vai
+OIá
+
+Romanian Translation:
+salut
+bună ziua
+alo
+salutare
+hei
+salutări
+partea mea
+revedere
+binețe
+Hello
+Ciao
+Deșteptarea
+salută
+salutăm
+salutat
+
+Russian Translation:
+привет
+приветик
+приветствие
+алло
+приветствую
+добрый вечер
+хелло
+здравствуйте
+здравствуй
+эй
+добрый день
+здрасьте
+здрасте
+алё
+Здраствуйте
+
+Turkish Translation:
+selam
+efendim
+merhaba
+alo
+merhabalar
+günaydın
+hoş geldin
+meraba
+buyurun
+buyrun
+Hello
+İyi günler
+hoş geldiniz
+hoşgeldin
+Evet
