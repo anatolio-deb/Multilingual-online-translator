@@ -29,11 +29,14 @@ def translate_word():
     else:
         default_lang = sys.argv[1]
         if default_lang not in languages_list:
+            print(f"Sorry, the program doesn't support this language: '{default_lang}'")
             sys.exit(1)
         else:
             languages_list.remove(default_lang)
         language = sys.argv[2]
         if language != 'all' and language not in languages_list:
+            print(f"Sorry, the program doesn't support this language: '{default_lang}'")
+
             sys.exit(1)
         elif language in languages_list:
             languages_list = [language]
@@ -56,9 +59,7 @@ def translate_word():
             if response.status_code == 200:
                 #print(response.status_code, 'OK')
                 pass
-            else:
-                print(f'Error {response.status_code}!')
-                sys.exit(1)
+
         except requests.exceptions.ConnectionError:
             print('Something wrong with your internet connection')
             return False
@@ -112,8 +113,10 @@ def translate_word():
 
 
 
-        if len(translation_text) <= len('Translation:\n\n\n'):  #  If there are no translations, exit from function
-            print("Sorry, there's no such word")
+        if len(translation_text) <= len('Russian Translations:\n\n'):  #  If there are no translations, exit from function
+            print(f"Sorry, unable to find {word}")
+            if len(sys.argv) > 2:
+                sys.exit()
             return False
         with open(f'{word}-translation.txt', 'a') as file:
             file.write(translation_text + example_text)
