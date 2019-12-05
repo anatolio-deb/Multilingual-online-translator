@@ -18,7 +18,7 @@ def translate_word():
         language = int(input("Now you can type 0 to translate to all languages. Type number of language you want to traslate on: ").strip().lower())
 
         while language == default_lang or language < 0 or language > 13:
-            language = int(input('Sorry, you typed incorrect number, please, rewrite it:'))
+            language = int(input('Sorry, you typed incorrect number, please try again:'))
         if language != 0:
             default_lang = languages_list[default_lang-1]
             languages_list = [languages_list[language-1]]
@@ -35,7 +35,7 @@ def translate_word():
             languages_list.remove(default_lang)
         language = sys.argv[2]
         if language != 'all' and language not in languages_list:
-            print(f"Sorry, the program doesn't support this language: '{default_lang}'")
+            print(f"Sorry, the program doesn't support {language}")
 
             sys.exit(1)
         elif language in languages_list:
