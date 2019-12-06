@@ -18,7 +18,7 @@ def translate_word():
         language = int(input("Now you can type 0 to translate to all languages. Type number of language you want to traslate on: ").strip().lower())
 
         while language == default_lang or language < 0 or language > 13:
-            language = int(input('Sorry, you typed incorrect number, please try again:'))
+            language = int(input('Sorry, you typed incorrect number, please, rewrite it:'))
         if language != 0:
             default_lang = languages_list[default_lang-1]
             languages_list = [languages_list[language-1]]
@@ -29,13 +29,13 @@ def translate_word():
     else:
         default_lang = sys.argv[1]
         if default_lang not in languages_list:
-            print(f"Sorry, the program doesn't support this language: '{default_lang}'")
+            print(f"Sorry, the program doesn't support {default_lang}!")
             sys.exit(1)
         else:
             languages_list.remove(default_lang)
         language = sys.argv[2]
         if language != 'all' and language not in languages_list:
-            print(f"Sorry, the program doesn't support {language}")
+            print(f"Sorry, the program doesn't support {language}!")
 
             sys.exit(1)
         elif language in languages_list:
@@ -101,14 +101,14 @@ def translate_word():
                     if example_count %2 == 0:
                         example_text += example + ':\n'
                     else:
-                        example_text += example + '\n\n'
+                        example_text += example + '\n'
                     example_count += 1
             elif language != 0 and example_count < 10:
                 if len(example) > 0:
                     if example_count %2 == 0:
                         example_text += example + ':\n'
                     else:
-                        example_text += example + '\n\n'
+                        example_text += example + '\n'
                     example_count += 1
 
 
@@ -120,8 +120,7 @@ def translate_word():
             return False
         with open(f'{word}-translation.txt', 'a') as file:
             file.write(translation_text + example_text)
-        print(translation_text)
-        print(example_text)
+        print(translation_text + example_text)
     return True
 
 
