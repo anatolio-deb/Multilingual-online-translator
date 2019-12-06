@@ -1,0 +1,134 @@
+TESTS:
+
+$: python3 translator.py english russian hi
+
+    Russian Translations:
+    здравствуйте
+    здравствуй
+    приветик
+    привет
+    здрасьте
+
+    Russian Examples:
+    And twice as much pleasure is better... hi.:
+    А наслаждение вдвойне - лучше... Здравствуйте.
+
+    We're sorry to interrupt, Chipp, hi.:
+    Простите, что прерываем, Чипп, здравствуйте.
+
+
+    Becky, hi, it's Walter White.:
+    Бэкки, здравствуй, это Уолтер Уайт.
+
+    Yes, hi, this is detective Rizzoli.:
+    Да, здравствуйте, это детектив Риззоли.
+
+    Oh, hi, Professor Beckwith.:
+    О, здравствуйте, профессор Беквиз.
+
+    ***file hi-translations.txt may contain output***
+
+$: python3 translator.py korean russian hi
+    Sorry, the program doesn't support korean!
+
+$: python3 translator.py english uzbek hi
+    Sorry, the program doesn't support uzbek!
+
+$: python3 translator.py english russian hdfvhdv
+Sorry, unable to find hdfvhdv
+
+$: python3 translator.py
+    ...
+    Type number of your language: 0
+    Sorry, you typed incorrect number, please, rewrite it: 14
+    Sorry, you typed incorrect number, please, rewrite it: 3
+    Now you can type 0 to translate to all languages. Type number of language you want to traslate on: 12
+    Type word you want to translate: vdvffad
+    Sorry, unable to find vdvffad
+    ...
+    Type number of your language: 3
+    Now you can type 0 to translate to all languages. Type number of language you want to traslate on: 0
+    Arabic Translations:
+    مرحبا
+    Arabic Example:
+    Cynthia, hi. Excuse me.:
+    مرحباً يا (سينيثيا)، معذرة.
+
+
+    German Translations:
+    hallo
+    German Example:
+    I'm saying hi to my friend.:
+    Ich sage nur Hallo zu meiner Freundin.
+
+
+    Spanish Translations:
+    hola
+    Spanish Example:
+    John: Yes, hi Alan.:
+    John: Sí, hola Alan.
+
+
+    French Translations:
+    bonjour
+    French Example:
+    Well, tell him Carter says hi.:
+    Passez- lui le bonjour de la part de Carter.
+
+
+    Hebrew Translations:
+    היי
+    Hebrew Example:
+    Oh, mayor bellows, hi.:
+    הו, ראש העיר בלאוס, היי.
+
+
+    Japanese Translations:
+    こんにちは
+    Japanese Example:
+    Yeah, hi, my name is Cynthia Rose.:
+    うん、こんにちは、私の名前　シンシアはローズですか？
+
+
+    Dutch Translations:
+    hallo
+    Dutch Example:
+    Ladies and gentlemen, hi, there.:
+    Dames en heren, hallo daar.
+
+
+    Polish Translations:
+    cześć
+    Polish Example:
+    Now that you are leaving say 'hi' to our Juliet.:
+    Teraz, gdy skończyłeś powiedz "cześć" naszej Julii.
+
+
+    Portuguese Translations:
+    olá
+    Portuguese Example:
+    Helena, hi, it's Tina.:
+    Olá, é a Tina. Espero que não esteja a ligar muito tarde.
+
+
+    Romanian Translations:
+    bună
+    Romanian Example:
+    Uh, hi, but it's Holly.:
+    Bună, dar mă cheamă Holly.
+
+
+    Russian Translations:
+    здравствуйте
+    Russian Example:
+    And twice as much pleasure is better... hi.:
+    А наслаждение вдвойне - лучше... Здравствуйте.
+
+
+    Turkish Translations:
+    selam
+    Turkish Example:
+    Meg, hi, it's Kel.:
+    Meg, selam, ben Kel. Bak senin iyi olup olmadığını merak ediyorum.
+
+    ***file hi-translations.txt may contain output***
