@@ -13,19 +13,19 @@ def translate_word():
     if len(sys.argv) == 1:
         default_lang = int(input("Hello, you're welcome to translator. Translator supports: \n1. Arabic\n2. German\n3. English\n4. Spanish\n5. French\n6. Hebrew\n7. Japanese\n8. Dutch\n9. Polish\n10. Portuguese\n11. Romanian\n12. Russian\n13. Turkish\nType number of your language: ").strip().lower())
         while 1 > default_lang or default_lang > 13: #  if default_lang incorrect type it again
-            default_lang = int(input('Sorry, you typed incorrect number, please, rewrite it:'))
+            default_lang = int(input("Sorry, you've typed an incorrect number, please, try again:"))
 
         language = int(input("Now you can type 0 to translate to all languages. Type number of language you want to traslate on: ").strip().lower())
 
         while language == default_lang or language < 0 or language > 13:
-            language = int(input('Sorry, you typed incorrect number, please, rewrite it:'))
+            language = int(input("Sorry, you've typed an incorrect number, please, try again:"))
         if language != 0:
             default_lang = languages_list[default_lang-1]
             languages_list = [languages_list[language-1]]
         else:
             default_lang = languages_list.pop(default_lang-1)
 
-        word = input('Type word you want to translate: ')
+        word = input('Type the word you want to translate: ')
     else:
         default_lang = sys.argv[1]
         if default_lang not in languages_list:

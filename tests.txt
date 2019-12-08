@@ -40,14 +40,14 @@ Sorry, unable to find hdfvhdv
 $: python3 translator.py
     ...
     Type number of your language: 0
-    Sorry, you typed incorrect number, please, rewrite it: 14
-    Sorry, you typed incorrect number, please, rewrite it: 3
-    Now you can type 0 to translate to all languages. Type number of language you want to traslate on: 12
+    Sorry, you've typed an incorrect number, please, try again: 14
+    Sorry, you've typed an incorrect number, please, try again:: 3
+    Type the number of a language you want to translate on or '0' to translate to all languages: 12
     Type word you want to translate: vdvffad
     Sorry, unable to find vdvffad
     ...
     Type number of your language: 3
-    Now you can type 0 to translate to all languages. Type number of language you want to traslate on: 0
+    Type the number of a language you want to translate on or '0' to translate to all languages: 0
     Arabic Translations:
     مرحبا
     Arabic Example:
