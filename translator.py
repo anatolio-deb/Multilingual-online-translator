@@ -15,7 +15,7 @@ def translate_word():
         while 1 > default_lang or default_lang > 13: #  if default_lang incorrect type it again
             default_lang = int(input("Sorry, you've typed an incorrect number, please, try again:"))
 
-        language = int(input("Now you can type 0 to translate to all languages. Type number of language you want to traslate on: ").strip().lower())
+        language = int(input("Type the number of a language you want to translate on or '0' to translate to all languages: ").strip().lower())
 
         while language == default_lang or language < 0 or language > 13:
             language = int(input("Sorry, you've typed an incorrect number, please, try again:"))
