@@ -4,7 +4,8 @@ This project is originally written as a telegram bot to support translation oper
 * Python3
   * requests
   * beautifulsoup
+* [hs-test](https://github.com/hyperskill/hs-test/wiki) - The testing framework applied
 ## Credits
 [Reverso Context](https://context.reverso.net/)
 
-[@Saske_cool_bot](https://t.me/saske_cool_bot)
+[@Saske_cool_bot](https://t.me/translator_with_examples_bot)
