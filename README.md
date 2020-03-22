@@ -8,4 +8,4 @@ This project is originally written as a telegram bot to support translation oper
 ## Credits
 [Reverso Context](https://context.reverso.net/)
 
-[@Saske_cool_bot](https://t.me/translator_with_examples_bot)
+[@Translator with examples](https://t.me/translator_with_examples_bot)
