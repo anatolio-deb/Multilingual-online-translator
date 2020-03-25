@@ -8,4 +8,4 @@ Python wrapper around https://context.reverso.net/, a part of an educational pla
 ## Credits
 [Reverso Context](https://context.reverso.net/)
 
-[@Translator with examples](https://t.me/translator_with_examples_bot)
+Telegram: [@Translator with examples](https://t.me/translator_with_examples_bot)
