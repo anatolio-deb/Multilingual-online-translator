@@ -1,5 +1,5 @@
 # reverso-context-bot
-This project was originally made as a telegram bot to support translation operations provided by [Reverso Context](https://context.reverso.net/). Now it's a part of an educational platform here https://hyperskill.org/projects/99.
+Python wrapper around https://context.reverso.net/. Available as telegram bot(see the credits). Now it's a part of an educational platform https://hyperskill.org/projects/99.
 ## Dependencies
 * Python3
   * requests
