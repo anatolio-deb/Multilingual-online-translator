@@ -6,6 +6,5 @@ Python wrapper around https://context.reverso.net/, a part of an educational pla
   * beautifulsoup
 * [hs-test](https://github.com/hyperskill/hs-test/wiki) - The testing framework applied
 ## Credits
-[Reverso Context](https://context.reverso.net/)
-
-Telegram: [@Translator with examples](https://t.me/translator_with_examples_bot)
+* [Reverso Context](https://context.reverso.net/)
+* Telegram: [@Translator with examples](https://t.me/translator_with_examples_bot)
