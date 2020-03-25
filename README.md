@@ -1,7 +1,5 @@
 # reverso-context-bot
-Python wrapper around https://context.reverso.net/.
-Now it's a part of an educational platform https://hyperskill.org/projects/99.
-Also available as telegram bot(see the credits).
+Python wrapper around https://context.reverso.net/, a part of an educational platform https://hyperskill.org/projects/99, also available as telegram bot (see the credits).
 ## Dependencies
 * Python3
   * requests
